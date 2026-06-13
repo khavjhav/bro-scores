@@ -1,7 +1,7 @@
 {
-  "versionCode": 9,
-  "versionName": "1.6.0",
+  "versionCode": 10,
+  "versionName": "1.7.0",
   "url": "https://bro-scores.pages.dev/BroScores.apk",
-  "notes": "Bro Scores 1.6.0\n• Substitutions now show who's IN (green) and OUT (red)\n• Injuries shown in the timeline\n• New Commentary tab — full live play-by-play\n• Goal push now works with the app closed (for teams you follow)",
+  "notes": "Bro Scores 1.7.0\n• Lineups now shown on a pitch with formations (home top, away bottom)\n• Player photos throughout; substitutes list with ▲ who came on\n• Richer sub cards: IN/OUT, position, photo and the play description",
   "mandatory": false
 }
