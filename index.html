@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#FFE600" />
+    <title>Bro Scores</title>
+    <meta name="description" content="World Cup 2026 — live scores, calendar, knockout bracket & player stats in your timezone." />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" href="icon-192.png" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Bro Scores" />
+    <style>
+      * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+      html, body, #root { margin: 0; padding: 0; min-height: 100%; }
+      body {
+        background: #FFE600;
+        font-family: "Helvetica Neue", Arial, system-ui, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      /* neo-brutalist press: button drops into its own shadow */
+      button { font-family: inherit; cursor: pointer; transition: transform .05s ease, box-shadow .05s ease; }
+      .nb:active { transform: translate(3px, 3px); box-shadow: 0 0 0 #111 !important; }
+      input { font-family: inherit; }
+      ::-webkit-scrollbar { width: 0; height: 0; }
+
+      /* content enters with a hard neo-brutalist slide */
+      @keyframes nbFade { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+      .nb-fadein { animation: nbFade .22s ease-out both; }
+
+      /* bottom sheet slams up */
+      @keyframes nbSheet { from { transform: translateY(100%); } to { transform: none; } }
+      .nb-sheet { animation: nbSheet .26s cubic-bezier(.2,.9,.2,1) both; }
+
+      /* followed team: pulsing green ring around the black shadow */
+      @keyframes favPulse {
+        0%,100% { box-shadow: 5px 5px 0 #111; }
+        50%     { box-shadow: 5px 5px 0 #111, 0 0 0 3px #00D26A; }
+      }
+      .nb-fav { animation: favPulse 1.5s ease-in-out infinite; }
+
+      /* live badge blink */
+      @keyframes nbBlink { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+      .nb-blink { animation: nbBlink 1s steps(1,end) infinite; }
+
+      /* goal pop */
+      @keyframes nbPop { 0% { transform: scale(1); } 35% { transform: scale(1.18); } 100% { transform: scale(1); } }
+      .nb-pop { animation: nbPop .5s ease-out; }
+
+      @media (prefers-reduced-motion: reduce) {
+        .nb-fadein, .nb-sheet, .nb-fav, .nb-blink, .nb-pop { animation: none !important; }
+      }
+    </style>
+    <script type="module" crossorigin src="./assets/index-wApatkUO.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
