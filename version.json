@@ -1,7 +1,7 @@
 {
-  "versionCode": 5,
-  "versionName": "1.4.0",
+  "versionCode": 6,
+  "versionName": "1.4.5",
   "url": "https://bro-scores.pages.dev/BroScores.apk",
-  "notes": "Bro Scores 1.4.0\n• Tap any team (standings or My Teams) for its news & full match list\n• Match sheet now shows only that match's highlight videos (no more unrelated news)\n• Faster, sturdier live updates",
+  "notes": "Bro Scores 1.4.5\n• Match clock now shows HT, FT, ET, PENS & delays correctly (no more stuck at 45+6)\n• Half-time / full-time / extra-time markers in the match timeline\n• Goal alerts can now reach you even with the app closed (push) — for teams you follow",
   "mandatory": false
 }
