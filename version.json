@@ -1,7 +1,7 @@
 {
-  "versionCode": 10,
-  "versionName": "1.7.0",
+  "versionCode": 11,
+  "versionName": "1.8.0",
   "url": "https://bro-scores.pages.dev/BroScores.apk",
-  "notes": "Bro Scores 1.7.0\n• Lineups now shown on a pitch with formations (home top, away bottom)\n• Player photos throughout; substitutes list with ▲ who came on\n• Richer sub cards: IN/OUT, position, photo and the play description",
+  "notes": "Bro Scores 1.8.0\n• Timeline is now a full typed feed (goals, cards, subs, fouls, corners, shots…) with a Key events / All toggle\n• Live clock fixed — no longer sticks behind the real minute\n• Push alerts now fire for your teams even with the app closed (goals, cards, penalties, kickoff/HT/FT & more)\n• Enable notifications when asked so alerts reach you",
   "mandatory": false
 }
