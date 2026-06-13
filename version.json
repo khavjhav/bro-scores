@@ -1,7 +1,7 @@
 {
-  "versionCode": 8,
-  "versionName": "1.5.1",
+  "versionCode": 9,
+  "versionName": "1.6.0",
   "url": "https://bro-scores.pages.dev/BroScores.apk",
-  "notes": "Bro Scores 1.5.1\n• Cleaner timeline — removed the noisy start/end delay & drinks-break bars\n• Only Half-time / Full-time / Extra time / Penalties show as compact markers",
+  "notes": "Bro Scores 1.6.0\n• Substitutions now show who's IN (green) and OUT (red)\n• Injuries shown in the timeline\n• New Commentary tab — full live play-by-play\n• Goal push now works with the app closed (for teams you follow)",
   "mandatory": false
 }
