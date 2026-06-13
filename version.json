@@ -1,7 +1,7 @@
 {
-  "versionCode": 7,
-  "versionName": "1.5.0",
+  "versionCode": 8,
+  "versionName": "1.5.1",
   "url": "https://bro-scores.pages.dev/BroScores.apk",
-  "notes": "Bro Scores 1.5.0\n• Live event animations + sound: bouncing match ball on GOALS, whistle on kickoff, yellow/red card flips, half/full-time\n• Fires for your followed teams while you're in the app\n• Mute toggle (🔊) in the header controls the sounds",
+  "notes": "Bro Scores 1.5.1\n• Cleaner timeline — removed the noisy start/end delay & drinks-break bars\n• Only Half-time / Full-time / Extra time / Penalties show as compact markers",
   "mandatory": false
 }
