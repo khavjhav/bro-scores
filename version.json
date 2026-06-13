@@ -1,7 +1,7 @@
 {
-  "versionCode": 3,
-  "versionName": "1.2.0",
+  "versionCode": 4,
+  "versionName": "1.3.0",
   "url": "https://bro-scores.pages.dev/BroScores.apk",
-  "notes": "Bro Scores 1.2.0\n• 10 player stat categories — goals, assists, shots, shots on target, saves, yellow/red cards, fouls, accurate passes\n• Stat & group pickers are now dropdowns\n• News & video links on every match (recaps, highlights)",
+  "notes": "Bro Scores 1.3.0\n• Offline now keeps your last scores instead of wiping to 0–0\n• Scores refresh the instant you reopen the app\n• Faster live updates (every 30s) so goals show sooner",
   "mandatory": false
 }
