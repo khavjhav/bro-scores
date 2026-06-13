@@ -11,9 +11,11 @@ Part of the **Bro** family (alongside *Bro Splits*).
 
 ## 📲 Download (Android)
 
-**[⬇ Download the latest APK](https://github.com/khavjhav/bro-scores/releases/latest/download/BroScores.apk)**
+**[⬇ Download the latest APK](https://bro-scores.pages.dev/BroScores.apk)** (fast — Cloudflare CDN)
 
-That link always points to the newest release. To install:
+Mirror: [GitHub release](https://github.com/khavjhav/bro-scores/releases/latest/download/BroScores.apk)
+
+To install:
 
 1. Open it on your Android phone.
 2. Allow *"install from unknown sources"* if prompted.
@@ -25,7 +27,7 @@ That link always points to the newest release. To install:
 
 No App Store needed — open the web app and add it to your home screen:
 
-**[Open Bro Scores](https://khavjhav.github.io/bro-scores/)** → Share → **Add to Home Screen**.
+**[Open Bro Scores](https://bro-scores.pages.dev/)** → Share → **Add to Home Screen**.
 
 It runs full-screen like a normal app. (iOS limitation: home-screen web apps can't do
 background goal push — scores still update live while the app is open.)
@@ -67,9 +69,12 @@ Stack: React + Vite + Capacitor 6. App icons/splash via `@capacitor/assets`.
 ## 🔁 Releasing an update (maintainer notes)
 
 1. Bump `versionCode` (and `versionName`) in `android/app/build.gradle`.
-2. `npm run build && npx cap sync android`, then `gradlew assembleDebug`.
-3. Create a GitHub release tagged `vX.Y.Z`, attach the APK named **`BroScores.apk`**.
+2. `npm run build && npx cap sync android`, then `gradlew assembleDebug`; copy to `BroScores.apk`.
+3. Copy the APK into `dist/`, then deploy to Cloudflare Pages:
+   `wrangler pages deploy dist --project-name bro-scores --branch main`
+   (serves `https://bro-scores.pages.dev/` and `/BroScores.apk` on Cloudflare's CDN).
 4. Update **`version.json`** on `main` (`versionCode`, `versionName`, `notes`, `mandatory`).
+   Optional: also attach the APK to a GitHub release as a mirror.
 
 Old users are prompted automatically on next launch. Keep signing consistent (debug keystore
 across debug builds) so updates install over the previous version.

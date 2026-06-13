@@ -1,7 +1,7 @@
 {
   "versionCode": 2,
   "versionName": "1.1.0",
-  "url": "https://khavjhav.github.io/bro-scores/BroScores.apk",
+  "url": "https://bro-scores.pages.dev/BroScores.apk",
   "notes": "Bro Scores 1.1.0\n• Player stats now show names & flags (fixed)\n• New Players / Teams toggle in Stats — team rankings by goals, fewest conceded, points & wins\n• Live timeline, lineups & match stats polish",
   "mandatory": false
 }
