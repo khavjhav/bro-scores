@@ -1,7 +1,7 @@
 {
-  "versionCode": 6,
-  "versionName": "1.4.5",
+  "versionCode": 7,
+  "versionName": "1.5.0",
   "url": "https://bro-scores.pages.dev/BroScores.apk",
-  "notes": "Bro Scores 1.4.5\n• Match clock now shows HT, FT, ET, PENS & delays correctly (no more stuck at 45+6)\n• Half-time / full-time / extra-time markers in the match timeline\n• Goal alerts can now reach you even with the app closed (push) — for teams you follow",
+  "notes": "Bro Scores 1.5.0\n• Live event animations + sound: bouncing match ball on GOALS, whistle on kickoff, yellow/red card flips, half/full-time\n• Fires for your followed teams while you're in the app\n• Mute toggle (🔊) in the header controls the sounds",
   "mandatory": false
 }
