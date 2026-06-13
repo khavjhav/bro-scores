@@ -13,7 +13,7 @@ Part of the **Bro** family (alongside *Bro Splits*).
 
 **[⬇ Download the latest APK](https://bro-scores.pages.dev/BroScores.apk)** (fast — Cloudflare CDN)
 
-Mirrors: [GitHub release](https://github.com/khavjhav/bro-scores/releases/latest/download/BroScores.apk) · [GitHub Pages](https://khavjhav.github.io/bro-scores/BroScores.apk)
+Mirror: [GitHub release](https://github.com/khavjhav/bro-scores/releases/latest/download/BroScores.apk)
 
 To install:
 
@@ -28,7 +28,6 @@ To install:
 No App Store needed — open the web app and add it to your home screen:
 
 **[Open Bro Scores](https://bro-scores.pages.dev/)** → Share → **Add to Home Screen**.
-(Mirror: [khavjhav.github.io/bro-scores](https://khavjhav.github.io/bro-scores/))
 
 It runs full-screen like a normal app. (iOS limitation: home-screen web apps can't do
 background goal push — scores still update live while the app is open.)
