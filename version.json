@@ -1,7 +1,7 @@
 {
-  "versionCode": 4,
-  "versionName": "1.3.0",
+  "versionCode": 5,
+  "versionName": "1.4.0",
   "url": "https://bro-scores.pages.dev/BroScores.apk",
-  "notes": "Bro Scores 1.3.0\n• Offline now keeps your last scores instead of wiping to 0–0\n• Scores refresh the instant you reopen the app\n• Faster live updates (every 30s) so goals show sooner",
+  "notes": "Bro Scores 1.4.0\n• Tap any team (standings or My Teams) for its news & full match list\n• Match sheet now shows only that match's highlight videos (no more unrelated news)\n• Faster, sturdier live updates",
   "mandatory": false
 }
