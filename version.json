@@ -1,7 +1,7 @@
 {
-  "versionCode": 1,
-  "versionName": "1.0.0",
+  "versionCode": 2,
+  "versionName": "1.1.0",
   "url": "https://github.com/khavjhav/bro-scores/releases/latest/download/BroScores.apk",
-  "notes": "First release of Bro Scores ⚽\n• All 104 matches in your timezone\n• Live scores, calendar, knockout bracket\n• Player stats & goal alerts for followed teams",
+  "notes": "Bro Scores 1.1.0\n• Player stats now show names & flags (fixed)\n• New Players / Teams toggle in Stats — team rankings by goals, fewest conceded, points & wins\n• Live timeline, lineups & match stats polish",
   "mandatory": false
 }
