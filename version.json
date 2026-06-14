@@ -1,7 +1,6 @@
 {
-  "versionCode": 11,
-  "versionName": "1.8.0",
+  "versionCode": 14,
+  "versionName": "1.9.0",
   "url": "https://bro-scores.pages.dev/BroScores.apk",
-  "notes": "Bro Scores 1.8.0\n• Timeline is now a full typed feed (goals, cards, subs, fouls, corners, shots…) with a Key events / All toggle\n• Live clock fixed — no longer sticks behind the real minute\n• Push alerts now fire for your teams even with the app closed (goals, cards, penalties, kickoff/HT/FT & more)\n• Enable notifications when asked so alerts reach you",
-  "mandatory": false
+  "notes": "Bro Scores 1.9.0\n• Shot map — every shot & goal plotted on a mini pitch (Match Stats)\n• Win probability bar from live odds\n• Lineups: player photos, active XI with subs on the pitch, IN/OUT subs table\n• Timeline = typed feed (Key events / All); fixed live clock & auto-refresh\n• Push trimmed to the moments that matter; smoother scrolling"
 }
