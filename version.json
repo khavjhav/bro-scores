@@ -1,6 +1,6 @@
 {
-  "versionCode": 14,
-  "versionName": "1.9.0",
+  "versionCode": 18,
+  "versionName": "1.9.5",
   "url": "https://bro-scores.pages.dev/BroScores.apk",
-  "notes": "Bro Scores 1.9.0\n• Shot map — every shot & goal plotted on a mini pitch (Match Stats)\n• Win probability bar from live odds\n• Lineups: player photos, active XI with subs on the pitch, IN/OUT subs table\n• Timeline = typed feed (Key events / All); fixed live clock & auto-refresh\n• Push trimmed to the moments that matter; smoother scrolling"
+  "notes": "Bro Scores 1.9.5\n• Predict the winner of every match + a nickname leaderboard — 3 points per correct call\n• Tap any player for a profile: bio, position, and their World Cup contributions\n• Bro Rating on the pitch + a player ranking by rating\n• Chances tab — each team's odds to reach the Round of 32\n• Cleaner formations on the lineup pitch"
 }
