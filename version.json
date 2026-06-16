@@ -1,6 +1,6 @@
 {
-  "versionCode": 21,
-  "versionName": "1.9.8",
+  "versionCode": 22,
+  "versionName": "1.9.9",
   "url": "https://bro-scores.pages.dev/BroScores.apk",
-  "notes": "Bro Scores 1.9.8\n• Real player headshots (no more full-body crops)\n• Player profiles now show international caps, preferred foot and debut year\n• Official FIFA group tables with qualification status\n• Official flags and team crests across the app"
+  "notes": "Bro Scores 1.9.9\n• Squad stats on every player — apps, goals, assists, clean sheets, cards\n• Fixed the lineup pitch — players no longer overlap at the halfway line\n• Clearer key-actions map with a legend, and correct goal counts in the timeline\n• Knockout penalty shootouts now count correctly in your predictions"
 }
