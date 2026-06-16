@@ -1,6 +1,6 @@
 {
-  "versionCode": 20,
-  "versionName": "1.9.7",
+  "versionCode": 21,
+  "versionName": "1.9.8",
   "url": "https://bro-scores.pages.dev/BroScores.apk",
-  "notes": "Bro Scores 1.9.7\n• Official player photos for every team — real headshots across lineups, profiles and squads\n• Lighter and faster: images are served as tiny thumbnails to save data"
+  "notes": "Bro Scores 1.9.8\n• Real player headshots (no more full-body crops)\n• Player profiles now show international caps, preferred foot and debut year\n• Official FIFA group tables with qualification status\n• Official flags and team crests across the app"
 }
