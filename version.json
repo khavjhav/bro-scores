@@ -1,6 +1,6 @@
 {
-  "versionCode": 18,
-  "versionName": "1.9.5",
+  "versionCode": 19,
+  "versionName": "1.9.6",
   "url": "https://bro-scores.pages.dev/BroScores.apk",
-  "notes": "Bro Scores 1.9.5\n• Predict the winner of every match + a nickname leaderboard — 3 points per correct call\n• Tap any player for a profile: bio, position, and their World Cup contributions\n• Bro Rating on the pitch + a player ranking by rating\n• Chances tab — each team's odds to reach the Round of 32\n• Cleaner formations on the lineup pitch"
+  "notes": "Bro Scores 1.9.6\n• Much faster cold start — opens instantly on your cached scores\n• Player profiles now show real World Cup stats (goals, saves, clean sheets) — live and tournament totals\n• Fixed lineups: players no longer overlap, subs land in the right spot\n• Tap a player in a match to see their key actions on the pitch\n• Predict picks now show how all fans called each match\n• New Settings menu; feedback is easy to find\n• Team page is now tabbed: Matches, Players, Stats, News"
 }
