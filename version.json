@@ -1,6 +1,6 @@
 {
-  "versionCode": 23,
-  "versionName": "1.9.10",
+  "versionCode": 24,
+  "versionName": "1.9.11",
   "url": "https://bro-scores.pages.dev/BroScores.apk",
-  "notes": "Bro Scores 1.9.10\n• Tap any player for a cleaner profile — Details, their stats in this match, and their full World Cup, in tabs\n• Smoother, more fluid feel across sheets, tabs and transitions\n• Faster scrolling with lighter image loading"
+  "notes": "Bro Scores 1.9.11\n• Tap any player for a cleaner profile — Details, their stats in this match, and their full World Cup, in tabs\n• Fixed match and player cards not opening\n• Faster scrolling with lighter image loading"
 }
